@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  netop-org-manager:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2022-10-13T12:23:52.642338+02:00"
+    dependencies:
+    - condition: argocd.enabled
+      name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.5.5
+    description: Netop-org-manager for Kubernetes
+    digest: 9fe59529c772ea8b17dcb01abcdac17b0b6a4a93c09b37b55154e869b128a649
+    home: https://github.com/noironetworks/netop-org-manager
+    maintainers:
+    - email: psolarcz@cisco.com
+      name: psolarcz
+    name: netop-org-manager
+    type: application
+    urls:
+    - https://github.com/noironetworks/netop-helm/releases/download/netop-org-manager-0.0.1/netop-org-manager-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-10-13T12:23:52.64236+02:00"
